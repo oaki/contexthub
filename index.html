@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ContextHub — malé interaktívne aplikácie pre učenie, pamäť a šach."
+    />
+    <meta name="theme-color" content="#f3f0e8" />
+    <title>ContextHub — aplikácie na jednom mieste</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="ContextHub — domov">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>CONTEXT<span>/</span>HUB</span>
+        </a>
+        <div class="topbar-meta" aria-label="Stav kolekcie">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>4 projekty online</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span>01</span> Digitálne ihrisko</p>
+            <h1 id="hero-title">
+              Malé appky.<br />
+              <em>Veľká zvedavosť.</em>
+            </h1>
+            <p class="intro">
+              Jedno miesto pre učenie, tréning pamäti a lepšie šachové rozhodnutia.
+            </p>
+          </div>
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="hub-core">
+              <span>CH</span>
+              <small>04</small>
+            </div>
+            <span class="satellite satellite-a"></span>
+            <span class="satellite satellite-b"></span>
+            <span class="satellite satellite-c"></span>
+          </div>
+        </section>
+
+        <section class="projects" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <p class="eyebrow"><span>02</span> Vyber si projekt</p>
+            <h2 id="projects-title">Čo si dnes vyskúšaš?</h2>
+          </div>
+
+          <div class="project-grid">
+            <a
+              class="project-card card-abakus"
+              href="https://abakus.contexthub.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="card-topline">
+                <span class="project-number">01</span>
+                <span class="project-tag">Počítanie</span>
+              </div>
+              <div class="card-visual visual-abakus" aria-hidden="true">
+                <span class="rail rail-one"><i></i><i></i><i></i><i></i></span>
+                <span class="rail rail-two"><i></i><i></i><i></i></span>
+                <span class="rail rail-three"><i></i><i></i><i></i><i></i><i></i></span>
+              </div>
+              <div class="card-content">
+                <h3>Hravý Abakus</h3>
+                <p>Nauč sa počítať na sorobane krok za krokom.</p>
+              </div>
+              <span class="card-link">
+                Otvoriť appku
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </span>
+            </a>
+
+            <a
+              class="project-card card-math"
+              href="https://math.contexthub.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="card-topline">
+                <span class="project-number">02</span>
+                <span class="project-tag">Matematika</span>
+              </div>
+              <div class="card-visual visual-math" aria-hidden="true">
+                <span class="math-symbol plus">+</span>
+                <span class="math-number">7</span>
+                <span class="math-symbol equals">=</span>
+                <span class="math-star">★</span>
+              </div>
+              <div class="card-content">
+                <h3>SaskaMath</h3>
+                <p>Hravé lekcie, úlohy a minihry pre malých matematikov.</p>
+              </div>
+              <span class="card-link">
+                Otvoriť appku
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </span>
+            </a>
+
+            <a
+              class="project-card card-memory"
+              href="https://memory-puzzle-game3.contexthub.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="card-topline">
+                <span class="project-number">03</span>
+                <span class="project-tag">Pamäť</span>
+              </div>
+              <div class="card-visual visual-memory" aria-hidden="true">
+                <span class="memory-tile tile-one">●</span>
+                <span class="memory-tile tile-two">◆</span>
+                <span class="memory-tile tile-three">◆</span>
+                <span class="memory-tile tile-four">●</span>
+              </div>
+              <div class="card-content">
+                <h3>Memory Puzzle</h3>
+                <p>Pexeso pre jedného či dvoch hráčov aj s vlastnými kartami.</p>
+              </div>
+              <span class="card-link">
+                Otvoriť appku
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </span>
+            </a>
+
+            <a
+              class="project-card card-chess"
+              href="https://www.chess-analysis.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="card-topline">
+                <span class="project-number">04</span>
+                <span class="project-tag">Šach</span>
+              </div>
+              <div class="card-visual visual-chess" aria-hidden="true">
+                <svg viewBox="0 0 180 120">
+                  <path class="chess-piece" d="M81 19h18l-2 18c11 5 18 16 18 29 0 8-4 15-10 20l9 18H66l9-18c-6-5-10-12-10-20 0-13 7-24 18-29l-2-18Z" />
+                  <path class="chess-line" d="M48 104h84M56 112h68" />
+                  <circle cx="90" cy="13" r="7" />
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Chess Analysis</h3>
+                <p>Preskúmaj pozície, partie a ťahy s pomocou šachového enginu.</p>
+              </div>
+              <span class="card-link">
+                Otvoriť appku
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <a class="footer-brand" href="/">CONTEXT<span>/</span>HUB</a>
+        <p>Priestor pre nápady, ktoré sa dajú kliknúť.</p>
+        <span>© <span id="year">2026</span></span>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
